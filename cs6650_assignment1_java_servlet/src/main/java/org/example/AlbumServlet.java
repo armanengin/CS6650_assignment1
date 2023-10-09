@@ -96,7 +96,7 @@ public class AlbumServlet extends HttpServlet {
             return;
         }
 
-        if (albumID.equals("12345")) {
+        if (albumID instanceof String) {
             JsonObject response = new JsonObject();
             response.addProperty("artist", "Sex Pistols");
             response.addProperty("title", "Never Mind The Bollocks!");
