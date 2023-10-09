@@ -96,7 +96,7 @@ public class AlbumServlet extends HttpServlet {
             return;
         }
 
-        if (albumID instanceof String) {
+        if (albumID instanceof String) { //check if albumID is valid or not
             JsonObject response = new JsonObject();
             response.addProperty("artist", "Sex Pistols");
             response.addProperty("title", "Never Mind The Bollocks!");
