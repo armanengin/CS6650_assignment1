@@ -5,4 +5,5 @@ assignment1
 * Clone the repository
 * mvn clean install
 
-##PS: go server uses port 8443 and Java Server uses port 8080
+## PS:
+- go server uses port 8443 and Java Server uses port 8080
