@@ -77,7 +77,7 @@ func main() {
 			return
 		}
 
-		// You can do additional processing with the image and the album details.
+		// post stub: return the same data
 		c.JSON(http.StatusOK, gin.H{
 			"albumID":   "12345",
 			"imageSize": file.Size,
