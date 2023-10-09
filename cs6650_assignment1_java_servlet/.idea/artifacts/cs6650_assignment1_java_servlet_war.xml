@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cs6650_assignment1_java_servlet:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/cs6650_assignment1_java_servlet_war</output-path>
+    <root id="archive" name="cs6650_assignment1_java_servlet_war.war">
+      <element id="artifact" artifact-name="cs6650_assignment1_java_servlet:war exploded" />
+    </root>
+  </artifact>
+</component>
